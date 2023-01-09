@@ -2,19 +2,12 @@ import './Main.css';
 import { animals } from '../../data.js';
 import background from '../../background.png';
 import Animal from '../Animal/Animal.js';
+import Button from '../Button/Button.js';
 
 export default function Main() {
-  const song = new Audio(`MooseBorne.wav`);
-
-  const playSong = () => {
-    song.volume = 0.5;
-    song.loop = true;
-    song.play();
-  };
-
   return (
     <main style={{ backgroundImage: `url(${background})` }}>
-      <button onClick={playSong}>Play Song</button>;
+      <Button />
       {animals.map((animal) => (
         <Animal
           key={animal.name}
