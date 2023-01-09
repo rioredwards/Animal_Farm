@@ -7,3 +7,20 @@ main {
   position: relative;
   margin-top: -7vh;
 }
+
+main button {
+  cursor: pointer;
+  position: relative;
+  top: 25vh;
+  left: 50vw;
+  transform: translateX(-40px);
+  outline: none;
+  border: none;
+  height: 40px;
+  width: 130px;
+  border-radius: 10px;
+  background-color: rgb(231, 187, 117);
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
