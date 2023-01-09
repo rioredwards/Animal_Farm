@@ -1,6 +1,6 @@
 .animal {
   width: 200px;
-  margin: 10px;
+  margin: 24vh 10px 0 10px;
   border-radius: 5px;
   padding: 10px;
   position: absolute;
@@ -19,4 +19,9 @@
 .animal .name {
   text-transform: uppercase;
   font-weight: bold;
+  margin-bottom: 0;
+}
+
+.animal p {
+  margin-top: 0;
 }
